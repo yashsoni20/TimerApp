@@ -1,45 +1,46 @@
-
 # ⏱️ Timer App (React Native + Expo)
 
-A modern timer application built with **React Native**, using **Expo**, with features like category grouping, duration selection, halfway alerts, and a bottom-tab-based UI.
+A modern timer application built with **React Native**, using **Expo**, with features like category grouping, duration selection, halfway alerts, and a minimalistic bottom-tab UI.
+
+---
+
+## 📱 Screenshots
+
+| Home Screen | Create Timer | History |
+|-------------|--------------|---------|
+| ![Home](./assets/screenshots/Home.png) | ![Create Timer](./assets/screenshots/AddTimer.png) | ![History](./assets/screenshots/History.png) |
 
 ---
 
 ## 🚀 Features
 
-- Add custom or predefined timers.
-- Select duration from preset options or enter a custom one.
-- Group timers by category (Study, Break, Custom, etc.).
-- Halfway alert toggle per timer.
-- Play, Pause, Reset individual timers.
-- Start All / Pause All / Reset All for grouped categories.
-- Modern UI with dynamic expandable categories.
+- ⌛ Create custom or predefined timers
+- 📂 Group timers by category (e.g. Study, Break, Custom)
+- ⏰ Set timer durations using presets or custom inputs
+- 🟡 Halfway alert toggle
+- ▶️ Start / ⏸ Pause / 🔄 Reset for individual timers
+- 🧠 "Start All", "Pause All", and "Reset All" per category
+- ⬇️ Expand/collapse timer groups
+- 🌙 Clean, modern UI with dark-on-white and white-on-dark styling
+- ⚙️ Platform compatibility for Android and iOS (Expo Go or standalone build)
 
 ---
 
 ## 📦 Tech Stack
 
-- React Native with Expo
-- Context API for state management
-- AsyncStorage (optional)
-- Vector Icons (AntDesign / Ionicons)
-- Android/iOS support
+- ⚛️ React Native (via Expo)
+- 🔁 React Navigation (Bottom Tabs)
+- 📦 Context API for global state management
+- 📱 React Native Vector Icons (AntDesign, Ionicons)
+- 💾 (Optional) AsyncStorage for persistence
 
 ---
 
 ## 🛠️ Setup Instructions
 
-### Prerequisites
+### 1. Prerequisites
 
-- Node.js & npm or Yarn
-- Expo CLI (`npm install -g expo-cli`)
-- Git
-
-### Installation
-
-```bash
-git clone https://github.com/your-username/timer-app.git
-cd timer-app
-yarn install
-# or
-npm install
+- Node.js installed
+- `expo-cli` globally installed:  
+  ```bash
+  npm install -g expo-cli
